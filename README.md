@@ -6,6 +6,8 @@ This is the supporting material for the paper "A Weakly-supervised Labeling Appr
 
 [2022/09/12] Introduction of code and supplementary materials.
 
+## Installation
+
 ### [DISCLAIMER] Prerequisites for Dex-Net
 This repo is a fork of the Berkeley AUTOLAB's dex-net GQ-CNN. Therefore, here we focus only on the modifications for fusing the user input.For Dex-Net documentation and code see [[1]](https://berkeleyautomation.github.io/dex-net/), [[2]](https://berkeleyautomation.github.io/gqcnn/), and [[3]](https://github.com/BerkeleyAutomation/gqcnn). Dex-Net general information can be find in:
 
@@ -19,8 +21,6 @@ This repo is a fork of the Berkeley AUTOLAB's dex-net GQ-CNN. Therefore, here we
         year={2019},
         publisher={AAAS}
     }
-
-## Installation
 
 ### Prerequisites
 
