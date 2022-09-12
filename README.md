@@ -1,37 +1,39 @@
-This repo is a fork of the Berkeley AUTOLAB's dex-net GQ-CNN. For their documentation and code see:
+# A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors
 
-<https://berkeleyautomation.github.io/dex-net/>
+This is the supporting material for the paper "A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors". Within this repo the code used for fusing the user input together with Dex-Net is provided. Moreover,supplementary materials (i.e., figures, example of test objects) are provided. If you find this work useful please consider citing it.
 
-<https://berkeleyautomation.github.io/gqcnn/>
+## News 
 
-<https://github.com/BerkeleyAutomation/gqcnn>
+[2022/09/12] Introduction of code and supplementary materials.
+
+### [DISCLAIMER] Prerequisites for Dex-Net
+This repo is a fork of the Berkeley AUTOLAB's dex-net GQ-CNN. Therefore, here we focus only on the modifications for fusing the user input.For Dex-Net documentation and code see [[1]](https://berkeleyautomation.github.io/dex-net/), [[2]](https://berkeleyautomation.github.io/gqcnn/), and [[3]](https://github.com/BerkeleyAutomation/gqcnn). Dex-Net general information can be find in:
+
+@article{mahler2019learning,
+  title={Learning ambidextrous robot grasping policies},
+  author={Mahler, Jeffrey and Matl, Matthew and Satish, Vishal and Danielczuk, Michael and DeRose, Bill and McKinley, Stephen and Goldberg, Ken},
+  journal={Science Robotics},
+  volume={4},
+  number={26},
+  pages={eaau4984},
+  year={2019},
+  publisher={AAAS}
+}
+
+## Installation
 
 ## Prerequisites
 
-### Python
+The package has only been tested with Python 3.7 on Ubuntu 16.04. We recommend using a Python environment management system, in particular Virtualenv. 
 
-The gqcnn package has only been tested with Python 3.5, Python 3.6, and Python 3.7.
-
-### Ubuntu
-
-The gqcnn package has only been tested with Ubuntu 12.04, Ubuntu 14.04 and Ubuntu 16.04.
-
-### Virtualenv
-
-We highly recommend using a Python environment management system, in particular Virtualenv, with the Pip and ROS installations. Note: Several users have encountered problems with dependencies when using Conda.
-
-    virtualenv -p /usr/bin/python3.7 ~/virtualenv/dex-net
-    source ~/virtualenv/dex-net/bin/activate
-
-## Pip Installation
-
-The pip installation is intended for users who are only interested in 1) Training GQ-CNNs or 2) Grasp planning on saved RGBD images, not interfacing with a physical robot. If you have intentions of using GQ-CNNs for grasp planning on a physical robot, we suggest you install as a ROS package.
+    virtualenv -p /usr/bin/python3.7 ~/virtualenv/dex-net-user-input
+    source ~/virtualenv/dex-net-user-input/bin/activate
 
 ### 1. Clone the repository
 
 Clone or download the project from Github.
 
-    git clone git@code.siemens.com:FMP_Analytics/edgeapps-for-shop4cf/dex-net.git
+    git clone https://github.com/matteopantano/Dex-Net-userInput
 
 ### 2. Run pip installation
 
@@ -53,15 +55,18 @@ Note that ``segmask``, ``config_filename`` and ``user_input_fusion_method`` are 
 
 If ``user_input_fusion`` method is provided, also ``camera_pose_path``,  ``user_input_3d_dir`` must be provided
 
+## Contributors
+
+* **Vladislav Klass** - [vladi315](https://github.com/vladi315)
+* **Matteo Pantano** - [matteopantano](https://github.com/matteopantano)
+
 ## Reference
 
-@article{mahler2019learning,
-  title={Learning ambidextrous robot grasping policies},
-  author={Mahler, Jeffrey and Matl, Matthew and Satish, Vishal and Danielczuk, Michael and DeRose, Bill and McKinley, Stephen and Goldberg, Ken},
-  journal={Science Robotics},
-  volume={4},
-  number={26},
-  pages={eaau4984},
-  year={2019},
-  publisher={AAAS}
+@software{pantano2022weaklysupervised,
+    title={A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors},
+    author = {Matteo Pantano and Vladislav Klass},
+    title = {Physical ergonomics evaluation through OpenPose},
+    url = {https://github.com/matteopantano/Dex-Net-userInput},
+    version = {1.0},
+    date = {2022-09-12},
 }
