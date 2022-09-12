@@ -9,20 +9,20 @@ This is the supporting material for the paper "A Weakly-supervised Labeling Appr
 ### [DISCLAIMER] Prerequisites for Dex-Net
 This repo is a fork of the Berkeley AUTOLAB's dex-net GQ-CNN. Therefore, here we focus only on the modifications for fusing the user input.For Dex-Net documentation and code see [[1]](https://berkeleyautomation.github.io/dex-net/), [[2]](https://berkeleyautomation.github.io/gqcnn/), and [[3]](https://github.com/BerkeleyAutomation/gqcnn). Dex-Net general information can be find in:
 
-@article{mahler2019learning,
-  title={Learning ambidextrous robot grasping policies},
-  author={Mahler, Jeffrey and Matl, Matthew and Satish, Vishal and Danielczuk, Michael and DeRose, Bill and McKinley, Stephen and Goldberg, Ken},
-  journal={Science Robotics},
-  volume={4},
-  number={26},
-  pages={eaau4984},
-  year={2019},
-  publisher={AAAS}
-}
+    @article{mahler2019learning,
+        title={Learning ambidextrous robot grasping policies},
+        author={Mahler, Jeffrey and Matl, Matthew and Satish, Vishal and Danielczuk, Michael and DeRose, Bill and McKinley, Stephen and Goldberg, Ken},
+        journal={Science Robotics},
+        volume={4},
+        number={26},
+        pages={eaau4984},
+        year={2019},
+        publisher={AAAS}
+    }
 
 ## Installation
 
-## Prerequisites
+### Prerequisites
 
 The package has only been tested with Python 3.7 on Ubuntu 16.04. We recommend using a Python environment management system, in particular Virtualenv. 
 
@@ -62,11 +62,11 @@ If ``user_input_fusion`` method is provided, also ``camera_pose_path``,  ``user_
 
 ## Reference
 
-@software{pantano2022weaklysupervised,
-    title={A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors},
-    author = {Matteo Pantano and Vladislav Klass},
-    title = {Physical ergonomics evaluation through OpenPose},
-    url = {https://github.com/matteopantano/Dex-Net-userInput},
-    version = {1.0},
-    date = {2022-09-12},
-}
+    @software{pantano2022weaklysupervised,
+        title={A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors},
+        author = {Matteo Pantano and Vladislav Klass},
+        title = {Physical ergonomics evaluation through OpenPose},
+        url = {https://github.com/matteopantano/Dex-Net-userInput},
+        version = {1.0},
+        date = {2022-09-12},
+    }
