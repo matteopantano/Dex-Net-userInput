@@ -4,6 +4,8 @@ This is the supporting material for the paper "A Weakly-supervised Labeling Appr
 
 ## News 
 
+[2022/09/15] Submission of paper to ICRA and polishing of the repo.
+
 [2022/09/12] Introduction of code and supplementary materials.
 
 ## Installation
@@ -54,6 +56,20 @@ You can adjust the parameters defined in the shell script to point to your own d
 Note that ``segmask``, ``config_filename`` and ``user_input_fusion_method`` are optional parameters.
 
 If ``user_input_fusion`` method is provided, also ``camera_pose_path``,  ``user_input_3d_dir`` must be provided
+
+## Useful material
+
+The objects used for the evaluation are stored under in [`data/objects`](data/objects) and are divided upon object for [`virtual evaluation`](data/objects/virtualEvaluation) and [`physical evaluation`](data/objects/physicalEvaluation). For sake of clarity some figures are reported here:
+
+### Virtual evaluation
+
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj001.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj002.png?raw=true)
+
+### Physical evaluation
+
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj003.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj004.png?raw=true)
 
 ## Contributors
 
