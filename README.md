@@ -63,13 +63,13 @@ The objects used for the evaluation are stored under in [`data/objects`](data/ob
 
 ### Virtual evaluation
 
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj001.png?raw=true)
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj002.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj001.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj002.png?raw=true)
 
 ### Physical evaluation
 
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj003.png?raw=true)
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/data/data/objects/virtualEvaluation/obj004.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj003.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj004.png?raw=true)
 
 ## Contributors
 
@@ -81,7 +81,7 @@ The objects used for the evaluation are stored under in [`data/objects`](data/ob
     @software{pantano2022weaklysupervised,
         title={A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors},
         author = {Matteo Pantano and Vladislav Klass},
-        title = {Physical ergonomics evaluation through OpenPose},
+        title = {Fusing of the user input in Dex-Net},
         url = {https://github.com/matteopantano/Dex-Net-userInput},
         version = {1.0},
         date = {2022-09-12},
