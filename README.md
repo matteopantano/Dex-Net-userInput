@@ -63,8 +63,9 @@ The objects used for the evaluation are stored under in [`data/objects`](data/ob
 
 ### Virtual evaluation
 
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj001.png?raw=true)
-![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/obj002.png?raw=true)
+<img src="https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/virtualEvaluation/obj001.png?raw=true" alt="drawing" width="200"/>
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/virtualEvaluation/obj001.png?raw=true)
+![alt text](https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/virtualEvaluation/obj002.png?raw=true)
 
 ### Physical evaluation
 
