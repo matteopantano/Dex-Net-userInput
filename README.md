@@ -67,7 +67,7 @@ The objects used for the evaluation are stored under in [`data/objects`](data/ob
 
 ### Physical evaluation
 
-<img src="https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/virtualEvaluation/imagePhyAll.png?raw=true" alt="drawing" width="800"/>
+<img src="https://github.com/matteopantano/Dex-Net-userInput/blob/main/data/objects/physicalEvaluation/imagePhyAll.png?raw=true" alt="drawing" width="800"/>
 
 ## Contributors
 
