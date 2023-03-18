@@ -4,7 +4,7 @@ This is the supporting material for the paper "A Weakly-supervised Labeling Appr
 
 ## News 
 
-[2022/09/15] Submission of paper to ICRA and polishing of the repo.
+[2023/03/17] Submission of paper to CASE and polishing of the repo.
 
 [2022/09/12] Introduction of code and supplementary materials.
 
