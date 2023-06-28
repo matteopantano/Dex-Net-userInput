@@ -1,10 +1,10 @@
-# A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors
+# Simplifying Robot Grasping in Manufacturing with a Teaching Approach based on a Novel User Grasp Metric
 
-This is the supporting material for the paper "A Weakly-supervised Labeling Approach for Robotic Grasp Teaching and its Effects on Grasp Quality and Operator's Human Factors". Within this repo the code used for fusing the user input together with Dex-Net is provided. Moreover,supplementary materials (i.e., figures, example of test objects) are provided. If you find this work useful please consider citing it.
+This is the supporting material for the paper "Simplifying Robot Grasping in Manufacturing with a Teaching Approach based on a Novel User Grasp Metric". Within this repo the code used for fusing the user input together with Dex-Net is provided. Moreover,supplementary materials (i.e., figures, example of test objects) are provided. If you find this work useful please consider citing it.
 
 ## News 
 
-[2023/03/17] Submission of paper to CASE and polishing of the repo.
+[2023/06/28] Submission of paper to ISM and polishing of the repo.
 
 [2022/09/12] Introduction of code and supplementary materials.
 
