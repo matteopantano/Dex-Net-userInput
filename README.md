@@ -4,7 +4,11 @@ This is the supporting material for the paper "Simplifying Robot Grasping in Man
 
 ## News 
 
-[2023/06/28] Submission of paper to ISM and polishing of the repo.
+[2023/09/29] Submission of final paper to 2023 International Conference on Industry 4.0 and Smart Manufacturing (ISM) and finalization of the repo.
+
+[2023/08/10] Acceptance to the 2023 International Conference on Industry 4.0 and Smart Manufacturing (ISM).
+
+[2023/06/28] Submission of paper to the 2023 International Conference on Industry 4.0 and Smart Manufacturing (ISM) and polishing of the repo.
 
 [2022/09/12] Introduction of code and supplementary materials.
 
@@ -84,3 +88,11 @@ The objects used for the evaluation are stored under in [`data/objects`](data/ob
         version = {1.0},
         date = {2022-09-12},
     }
+
+    @inproceedings{pantano2023,  
+      author = {Matteo Pantano, Vladislav Klass, Qiaoyue Yang, Akhil Sathuluri, Daniel Regulin, Lucas Janisch, Markus Zimmermann, Dongheui Lee},  
+      title = {Simplifying Robot Grasping in Manufacturing with a Teaching Approach based on a Novel User Grasp Metric},  
+      booktitle = {2023 International Conference on Industry 4.0 and Smart Manufacturing (ISM)},  
+      year = {2023},  
+      address = {Lisbon, Portugal},  
+    }  
